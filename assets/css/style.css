@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -19,31 +21,141 @@ a {
   margin: 0 auto;
 }
 
-/*=================================
-  Header styling starts here
-=================================*/
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #d5e0ee;
+}
 
-/*=================================
-  Header styling ends here
-=================================*/
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightgray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
 
 /*=================================
   main styling starts here
 =================================*/
 
+.container {
+  background-color: var(--white);
+  margin: 131.6px 0;
+  padding: 13px;
+  border-radius: 15px;
+  padding-bottom: 34px;
+}
+
+main .wrapper {
+  width: 22.3%;
+}
+
+.container figure img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container figure {
+  margin-bottom: 15px;
+}
+
+h1 {
+  padding: 0px 15px;
+  font-size: 19px;
+  text-align: center;
+  color: var(--dark-blue);
+  margin-bottom: 14px;
+}
+
+p {
+  padding: 0px 18px;
+  font-size: 13px;
+  text-align: center;
+  color: var(--grayish-blue);
+}
 /*=================================
   main styling ends here
 =================================*/
 
-/*=================================
-  footer styling starts here
-=================================*/
-
-/*=================================
-  footer styling ends here
-=================================*/
-
 /*media query starts*/
+
+/*media query for 1200px starts here*/
+@media only screen and (max-width: 1200px) {
+  main .wrapper {
+    width: 25%;
+  }
+
+  h1 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+}
+
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+  main .wrapper {
+    width: 28%;
+  }
+
+  p {
+    font-size: 12px;
+    padding: 0px 15px;
+  }
+
+  .container {
+    margin: 100px 0;
+  }
+}
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+  main .wrapper {
+    width: 35%;
+  }
+
+  .container {
+    margin: 70px 0;
+  }
+}
+
+/*media query for 540px starts here*/
+@media only screen and (max-width: 540px) {
+  main .wrapper {
+    width: 60%;
+  }
+}
+
+/*media query for 420px starts here*/
+@media only screen and (max-width: 420px) {
+  main .wrapper {
+    width: 75%;
+  }
+}
+
+/*media query for 375px starts here*/
+@media only screen and (max-width: 375px) {
+  main .wrapper {
+    width: 85%;
+  }
+
+  h1 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 13px;
+  }
 }
