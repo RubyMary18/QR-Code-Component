@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/RubyMary18/QR-Code-Component]
-- Live Site URL: []
+- Live Site URL: [https://rubymary18.github.io/QR-Code-Component/]
 
 ## My process
 
