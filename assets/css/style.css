@@ -60,7 +60,7 @@ main .wrapper {
 
 h1 {
   padding: 0px 15px;
-  font-size: 19px;
+  font-size: 21px;
   text-align: center;
   color: var(--dark-blue);
   margin-bottom: 14px;
@@ -68,7 +68,7 @@ h1 {
 
 p {
   padding: 0px 18px;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
   color: var(--grayish-blue);
 }
